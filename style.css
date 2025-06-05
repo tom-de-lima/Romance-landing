@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #fff0f5;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    margin-top: 30px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  header h1 {
+    color: #c71585;
+    font-size: 2em;
+  }
+  
+  .subtitle {
+    color: #8b008b;
+    font-style: italic;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  section h2 {
+    color: #d63384;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+  }
+  
+  .assinatura {
+    text-align: right;
+    font-size: 1.2em;
+    margin-top: 40px;
+    color: #8b0000;
+  }
+
+  .romantic-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 14px 32px;
+    font-size: 1.1em;
+    font-weight: 500;
+    background: linear-gradient(to right, #ff69b4, #c71585);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transition: all 0.4s ease-in-out;
+    letter-spacing: 0.5px;
+  }
+  
+  .romantic-button:hover {
+    background: linear-gradient(to right, #c71585, #ff69b4);
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  
+  
